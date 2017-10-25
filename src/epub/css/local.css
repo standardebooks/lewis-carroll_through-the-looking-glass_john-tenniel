@@ -56,3 +56,15 @@ p span.i2.rtl{
 	padding-left: 0;
 	padding-right: 3em;
 }
+
+.border-bottom {
+	border-bottom: 1px solid;
+}
+
+.center {
+	margin: auto;
+}
+
+.text-right {
+	text-align: right;
+}
