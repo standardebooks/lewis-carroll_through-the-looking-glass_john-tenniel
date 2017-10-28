@@ -33,6 +33,12 @@ span[epub|type~="subtitle"]{
 	display: none;
 }
 
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
@@ -43,16 +49,12 @@ p span.i2{
 	padding-left: 3em;
 }
 
-p span.rtl{
-	direction: rtl;
-}
-
-p span.i1.rtl{
+p span.i1.text-right{
 	padding-left: 0;
 	padding-right: 2em;
 }
 
-p span.i2.rtl{
+p span.i2.text-right{
 	padding-left: 0;
 	padding-right: 3em;
 }
@@ -62,7 +64,8 @@ p span.i2.rtl{
 }
 
 .center{
-	margin: auto;
+	width: 100%;
+	text-align: center;
 }
 
 .text-right{
