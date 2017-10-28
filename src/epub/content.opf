@@ -22,11 +22,11 @@
 		<dc:subject id="subject-1">Fantasy literature</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/12</meta>
 		<meta property="se:subject">Fantasy</meta>
-		<dc:description id="description">In a follow-up to her <i>Adventures in Wonderland</i>, Alice finds herself in a mirror image of the fantastical land where she becomes a queen in her own right.</dc:description>
+		<dc:description id="description">In a follow-up to her adventures in Wonderland, Alice finds herself in a mirror image of the whimsical land where she becomes a queen in her own right.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Alice dreams herself into a mirror version of Wonderland, a whimsical land of talking flowers, and chess pieces, and a fighting lion and unicorn, and crosses sections of a life-size chess board. Upon reaching the Eighth Square, she is crowned a queen and the Red and White Queens throw her her very own dinner party to celebrate.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Through the Looking-Glass&lt;/i&gt; is a sequel to the wildly popular &lt;i&gt;Alice's Adventures in Wonderland&lt;/i&gt;, where Alice finds herself in a mirror image of Wonderland, instead based on a chess board rather than a deck of cards, meeting mirror copies of her old friends.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Through the Looking-Glass&lt;/i&gt; is a sequel to the wildly popular &lt;i&gt;Alice’s Adventures in Wonderland&lt;/i&gt;, where Alice finds herself in a mirror image of Wonderland, instead based on a chess board rather than a deck of cards, meeting mirror copies of her old friends.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
@@ -42,6 +42,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Lewis_Carroll</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056546</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
 		<dc:contributor id="artist">Charles Martin Hardie</dc:contributor>
 		<meta property="file-as" refines="#artist">Hardie, Charles Martin</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
