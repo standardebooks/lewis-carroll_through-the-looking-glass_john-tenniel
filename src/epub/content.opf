@@ -65,6 +65,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Jared Updike</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Updike, Jared</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://jared.updike.org/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">clr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
