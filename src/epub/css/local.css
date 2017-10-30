@@ -49,14 +49,23 @@ p span.i2{
 	padding-left: 3em;
 }
 
-p span.i1.text-right{
+p span.i1.right{
 	padding-left: 0;
 	padding-right: 2em;
 }
 
-p span.i2.text-right{
+p span.i2.right{
 	padding-left: 0;
 	padding-right: 3em;
+}
+
+table{
+	margin: 1em auto;
+	text-align: right;
+}
+
+table tr + tr > td{
+	border-bottom: 1px solid;
 }
 
 b{
@@ -64,15 +73,6 @@ b{
 	font-variant: small-caps;
 }
 
-.border-bottom{
-	border-bottom: 1px solid;
-}
-
-.center{
-	width: 100%;
-	text-align: center;
-}
-
-.text-right{
+.right{
 	text-align: right;
 }
