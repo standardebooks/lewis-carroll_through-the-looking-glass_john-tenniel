@@ -59,6 +59,11 @@ p span.i2.text-right{
 	padding-right: 3em;
 }
 
+b{
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
 .border-bottom{
 	border-bottom: 1px solid;
 }
