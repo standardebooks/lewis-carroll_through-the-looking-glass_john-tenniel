@@ -51,15 +51,23 @@ p span.i2{
 
 p span.i1.right{
 	padding-left: 0;
-	padding-right: 2em;
+	padding-right: 1em;
 }
 
 p span.i2.right{
 	padding-left: 0;
-	padding-right: 3em;
+	padding-right: 2em;
+}
+
+[epub|type~="z3998:verse"] header p,
+[epub|type~="z3998:poem"] header p{
+	font-variant: small-caps;
+	text-align: center;
+	margin: 1em 0;
 }
 
 table{
+	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
 	text-align: right;
 }
