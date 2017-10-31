@@ -38,7 +38,7 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12</dc:source>
-		<dc:source>https://books.google.com/books?id=zpWx_U0G704C</dc:source>
+		<dc:source>https://books.google.com/books?id=i2MCAAAAYAAJ</dc:source>
 		<meta property="se:word-count">31328</meta>
 		<meta property="se:reading-ease.flesch">81.43</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Through_the_Looking-Glass</meta>
