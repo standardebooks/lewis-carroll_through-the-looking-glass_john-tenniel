@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/lewis-carroll/through-the-looking-glass</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2017-10-31T00:52:28Z</dc:date>
+		<meta property="dcterms:modified">2017-10-31T00:52:28Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,7 +39,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12</dc:source>
 		<dc:source>https://books.google.com/books?id=i2MCAAAAYAAJ</dc:source>
-		<meta property="se:word-count">31328</meta>
+		<meta property="se:word-count">30578</meta>
 		<meta property="se:reading-ease.flesch">81.43</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Through_the_Looking-Glass</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/lewis-carroll_through-the-looking-glass</meta>
@@ -69,6 +69,10 @@
 		<meta property="file-as" refines="#producer-2">Updike, Jared</meta>
 		<meta property="se:url.homepage" refines="#producer-2">http://jared.updike.org/</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">clr</meta>
+		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-3">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
