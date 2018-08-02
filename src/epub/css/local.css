@@ -63,7 +63,8 @@ p span.i2.right{
 [epub|type~="z3998:poem"] header p{
 	font-variant: small-caps;
 	text-align: center;
-	margin: 1em 0;
+	margin-bottom: 1em;
+	margin-top: 3em;
 }
 
 table{
@@ -74,11 +75,6 @@ table{
 
 table tr + tr > td{
 	border-bottom: 1px solid;
-}
-
-b{
-	font-weight: normal;
-	font-variant: small-caps;
 }
 
 .right{
