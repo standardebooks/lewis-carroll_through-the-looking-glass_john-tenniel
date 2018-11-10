@@ -49,17 +49,6 @@ p span.i2{
 	padding-left: 3em;
 }
 
-p span.i1.right{
-	padding-left: 0;
-	padding-right: 1em;
-}
-
-p span.i2.right{
-	padding-left: 0;
-	padding-right: 2em;
-}
-
-[epub|type~="z3998:verse"] header p,
 [epub|type~="z3998:poem"] header p{
 	font-variant: small-caps;
 	text-align: center;
@@ -67,16 +56,69 @@ p span.i2.right{
 	margin-top: 3em;
 }
 
-table{
+table#sum{
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
+}
+
+table#sum td{
 	text-align: right;
 }
 
-table tr + tr > td{
+table#sum tr + tr > td{
 	border-bottom: 1px solid;
 }
 
-.right{
-	text-align: right;
+table#chessboard{
+	margin: 1em auto;
+	text-align: left;
+}
+
+table#chessboard td{
+	vertical-align: top;
+	border-bottom: 1px solid;
+}
+
+table#chessboard td:nth-child(odd){
+	width: 5%;
+}
+
+table#chessboard td:nth-child(even){
+	width: 45%;
+}
+
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: 1em auto;
+	max-width: 100%;
+}
+
+figure.full-page{
+	margin: 0;
+	max-height: 100%;
+	page-break-before: always;
+	page-break-after: always;
+	page-break-inside: avoid;
+	text-align: center;
+}
+
+figure.three-quarter-page img{
+	max-width: 75%;
+}
+
+figure.half-page img{
+	max-width: 50%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
+figcaption{
+	font-style: italic;
 }
