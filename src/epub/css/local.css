@@ -56,35 +56,25 @@ p span.i2{
 	margin-top: 3em;
 }
 
-table#sum{
+#chapter-6 table{
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
-}
-
-table#sum td{
 	text-align: right;
 }
 
-table#sum tr + tr > td{
-	border-bottom: 1px solid;
+#chapter-6 table tr:last-child td{
+	border-top: 1px solid;
 }
 
-table#chessboard{
-	margin: 1em auto;
-	text-align: left;
+#preamble{
+	text-align: center;
 }
 
-table#chessboard td{
+#preamble ol{
+	display: inline-block;
 	vertical-align: top;
-	border-bottom: 1px solid;
-}
-
-table#chessboard td:nth-child(odd){
-	width: 5%;
-}
-
-table#chessboard td:nth-child(even){
-	width: 45%;
+	text-align: left;
+	max-width: 50%;
 }
 
 figure{
@@ -94,7 +84,7 @@ figure{
 
 figure img{
 	display: block;
-	margin: 1em auto;
+	margin: auto;
 	max-width: 100%;
 }
 
@@ -120,5 +110,6 @@ figure + p{
 }
 
 figcaption{
+	font-size: .75em;
 	font-style: italic;
 }

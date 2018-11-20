@@ -23,9 +23,9 @@
 			letter-spacing: 0;
 		}
 
-.contributor{
-	font-size: 46.78362656px;
-}
+		.contributor{
+			font-size: 46.78362656px;
+		}
 	</style>
 	<text class="title" x="700" y="130">THROUGH THE</text>
 	<text class="title" x="700" y="230">LOOKING-GLASS</text>

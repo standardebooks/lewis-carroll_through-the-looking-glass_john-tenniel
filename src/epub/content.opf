@@ -40,6 +40,7 @@
 		<dc:subject id="subject-1">Fantasy literature</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/12</meta>
 		<meta property="se:subject">Fantasy</meta>
+		<meta property="se:subject">Childrens</meta>
 		<dc:description id="description">In a follow-up to her adventures in Wonderland, Alice finds herself in a mirror image of the whimsical land where she becomes a queen in her own right.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
@@ -50,6 +51,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12</dc:source>
 		<dc:source>https://books.google.com/books?id=i2MCAAAAYAAJ</dc:source>
+		<dc:source>https://archive.org/details/ThroughTheLookingGlass_201303/</dc:source>
 		<meta property="se:word-count">30578</meta>
 		<meta property="se:reading-ease.flesch">81.43</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Through_the_Looking-Glass</meta>
