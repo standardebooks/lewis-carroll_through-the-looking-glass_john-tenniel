@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/lewis-carroll/through-the-looking-glass</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/lewis-carroll/through-the-looking-glass/john-tenniel</dc:identifier>
 		<dc:date>2017-10-31T00:52:28Z</dc:date>
-		<meta property="dcterms:modified">2018-11-20T22:39:59Z</meta>
-		<meta property="se:revision-number">13</meta>
+		<meta property="dcterms:modified">2018-11-20T23:17:29Z</meta>
+		<meta property="se:revision-number">14</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -55,7 +55,7 @@
 		<meta property="se:word-count">30711</meta>
 		<meta property="se:reading-ease.flesch">81.53</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Through_the_Looking-Glass</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/lewis-carroll_through-the-looking-glass</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/lewis-carroll_through-the-looking-glass_john-tenniel</meta>
 		<dc:creator id="author">Lewis Carroll</dc:creator>
 		<meta property="file-as" refines="#author">Carroll, Lewis</meta>
 		<meta property="se:name.person.full-name" refines="#author">Charles Lutwidge Dodgson</meta>
