@@ -56,6 +56,10 @@ p span.i2{
 	margin-top: 3em;
 }
 
+#illustration-10{
+	max-width: 25em;
+}
+
 #chapter-6 table{
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
