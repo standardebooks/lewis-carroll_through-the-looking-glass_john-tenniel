@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Through the Looking-Glass</dc:title>
 		<meta property="file-as" refines="#title">Through the Looking-Glass</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -37,16 +37,15 @@
 		<meta property="file-as" refines="#fulltitle">Through the Looking-Glass</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Fantasy literature</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/12</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85047145</meta>
 		<meta property="se:subject">Fantasy</meta>
 		<meta property="se:subject">Childrens</meta>
 		<dc:description id="description">In a follow-up to her adventures in Wonderland, Alice finds herself in a mirror image of the whimsical land where she becomes a queen in her own right.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Alice dreams herself into a mirror version of Wonderland, a whimsical land of talking flowers, and chess pieces, and a fighting lion and unicorn, and crosses sections of a life-size chess board. Upon reaching the Eighth Square, she is crowned a queen and the Red and White Queens throw her her very own dinner party to celebrate.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Through the Looking-Glass&lt;/i&gt; is a sequel to the wildly popular &lt;i&gt;Alice’s Adventures in Wonderland&lt;/i&gt;, where Alice finds herself in a mirror image of Wonderland, instead based on a chess board rather than a deck of cards, meeting mirror copies of her old friends.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12</dc:source>
 		<dc:source>https://books.google.com/books?id=i2MCAAAAYAAJ</dc:source>
