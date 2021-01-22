@@ -98,10 +98,6 @@ figure.half-page img{
 	max-width: 50%;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
 figcaption{
 	font-size: .75em;
 	font-style: italic;
