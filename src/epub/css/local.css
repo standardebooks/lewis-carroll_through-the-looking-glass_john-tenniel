@@ -40,9 +40,9 @@ p span.i2{
 
 [epub|type~="z3998:poem"] header p{
 	font-variant: small-caps;
-	text-align: center;
 	margin-bottom: 1em;
 	margin-top: 3em;
+	text-align: center;
 }
 
 #illustration-10{
@@ -65,9 +65,9 @@ p span.i2{
 
 #preamble ol{
 	display: inline-block;
-	vertical-align: top;
-	text-align: initial;
 	max-width: 50%;
+	text-align: initial;
+	vertical-align: top;
 }
 
 figure{
