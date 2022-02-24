@@ -83,6 +83,7 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Jared Updike</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Updike, Jared</meta>
 		<meta property="se:url.homepage" refines="#producer-2">http://jared.updike.org/</meta>
