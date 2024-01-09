@@ -117,6 +117,7 @@ figcaption{
 }
 
 /* All epigraphs */
+[epub|type~="epigraph"],
 [epub|type~="conclusion"]{
 	font-style: italic;
 	hyphens: none;
@@ -125,10 +126,12 @@ figcaption{
 /* End all epigraphs */
 
 /* Full-page epigraphs */
+section[epub|type~="epigraph"],
 section[epub|type~="conclusion"]{
 	text-align: center;
 }
 
+section[epub|type~="epigraph"] > *,
 section[epub|type~="conclusion"] > *{
 	display: inline-block;
 	margin: auto;
@@ -138,6 +141,7 @@ section[epub|type~="conclusion"] > *{
 }
 
 @supports(display: flex){
+	section[epub|type~="epigraph"],
 	section[epub|type~="conclusion"]{
 		align-items: center;
 		box-sizing: border-box;
@@ -148,6 +152,8 @@ section[epub|type~="conclusion"] > *{
 		padding-top: 3em;
 	}
 
+
+	section[epub|type~="epigraph"] > *,
 	section[epub|type~="conclusion"] > *{
 		margin: 0;
 	}
