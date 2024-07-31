@@ -51,7 +51,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/12</dc:source>
 		<dc:source>https://books.google.com/books?id=i2MCAAAAYAAJ</dc:source>
 		<dc:source>https://archive.org/details/ThroughTheLookingGlass_201303/</dc:source>
-		<meta property="se:word-count">30712</meta>
+		<meta property="se:word-count">30719</meta>
 		<meta property="se:reading-ease.flesch">81.53</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Through_the_Looking-Glass</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/lewis-carroll_through-the-looking-glass_john-tenniel</meta>
