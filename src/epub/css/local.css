@@ -152,7 +152,6 @@ section[epub|type~="conclusion"] > *{
 		padding-top: 3em;
 	}
 
-
 	section[epub|type~="epigraph"] > *,
 	section[epub|type~="conclusion"] > *{
 		margin: 0;
