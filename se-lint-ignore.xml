@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-*.xhtml">
+		<ignore>
+			<code>s-041</code>
+			<reason>Alt text is different from LoI text on purpose.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-3.xhtml">
 		<ignore>
 			<code>y-003</code>
