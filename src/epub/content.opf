@@ -61,7 +61,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Lewis_Carroll</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056546</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Charles Martin Hardie</dc:contributor>
 		<meta property="file-as" refines="#artist">Hardie, Charles Martin</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
