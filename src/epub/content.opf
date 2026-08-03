@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/lewis-carroll/through-the-looking-glass/john-tenniel</dc:identifier>
 		<dc:date>2017-10-31T00:52:28Z</dc:date>
@@ -43,11 +43,11 @@
 		<meta property="term" refines="#subject-1">sh85047145</meta>
 		<meta property="schema:genre">Children’s</meta>
 		<meta property="schema:genre">Fantasy</meta>
-		<dc:description id="description">In a follow-up to her adventures in Wonderland, Alice finds herself in a mirror image of the whimsical land where she becomes a queen in her own right.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>In a follow-up to her adventures in Wonderland, Alice finds herself in a mirror image of the whimsical land where she becomes a queen in her own right.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Alice dreams herself into a mirror version of Wonderland, a whimsical land of talking flowers, and chess pieces, and a fighting lion and unicorn, and crosses sections of a life-size chess board. Upon reaching the Eighth Square, she is crowned a queen and the Red and White Queens throw her her very own dinner party to celebrate.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Through the Looking-Glass&lt;/i&gt; is a sequel to the wildly popular &lt;a href="https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel"&gt;&lt;i&gt;Alice’s Adventures in Wonderland&lt;/i&gt;&lt;/a&gt;, where Alice finds herself in a mirror image of Wonderland, instead based on a chess board rather than a deck of cards, meeting mirror copies of her old friends.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12</dc:source>
 		<dc:source>https://books.google.com/books?id=i2MCAAAAYAAJ</dc:source>
