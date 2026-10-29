@@ -79,6 +79,7 @@
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-1" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Kenneth Williams</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Williams, Kenneth</meta>
@@ -92,6 +93,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Jared Updike</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Updike, Jared</meta>
+		<meta property="schema:alternateName" refines="#producer-2">Jared Fisher Updike</meta>
 		<link href="http://jared.updike.org/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">clr</meta>
 		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
